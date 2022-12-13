@@ -1,0 +1,20 @@
+.button {
+    margin-left: 5px;
+}
+
+.list {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.item {
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+tr::before {
+    content: "☎️";
+    display: inline-block;
+    margin-right: 0.2rem;
+    padding-right: 5px;
+}
